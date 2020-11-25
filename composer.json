@@ -1,5 +1,5 @@
 {
-    "name": "websolutespa/magento-widget-extra-fields",
+    "name": "websolutespa/magento-widget-image-chooser",
     "description": "This module provides image-upload feature inside widget",
     "type": "magento2-module",
     "require": {
