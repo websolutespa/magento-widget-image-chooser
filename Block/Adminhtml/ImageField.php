@@ -21,7 +21,7 @@ class ImageField extends Template
     /**
      * @var FormElementFactory
      */
-    protected FormElementFactory $elementFactory;
+    protected $elementFactory;
 
     /**
      * @param TemplateContext $context
