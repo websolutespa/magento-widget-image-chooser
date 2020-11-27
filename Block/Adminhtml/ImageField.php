@@ -53,7 +53,7 @@ class ImageField extends Template
             ['target_element_id' => $element->getId(), 'type' => 'file']
         );
         /** @var Button $chooser */
-        $chooser = $this->getLayout()->createBlock(\Magento\Backend\Block\Widget\Button::class)
+        $chooser = $this->getLayout()->createBlock(Button::class)
             ->setType('button')
             ->setClass('btn-chooser')
             ->setLabel($config['button']['open'])
